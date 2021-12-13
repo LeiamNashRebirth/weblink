@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta property="og:image" content="logo.jpg">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+  <meta charset="UTF-8">
+  <title>Leiam Nash</title>
+  <link rel="shortcut icon" type="x-icon" href="favicon.ico">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
+  <!-- bootstrap cdn -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body >
+				<div class="bg-animation">
+  </div>
+  <div style="background: #211f25
+  url('coffiecup.gif') no-repeat center;" id="loader">
+    <span id="spanloading">Loading</span>
+  </div>
+  
+<style>
+body {
+  background-image: url('leiam.jpeg');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+    
+  <div id="sec1">
+    <nav>
+      <a href='https://www.facebook.com/LeiamNashRebirth'><img src="logo.jpg" alt="no img"></a>
+      <span><a <a href="https://www.youtube.com/channel/UC9uWAeynVtP34xWvhLSxfUw">Leiam Nash</a></span>
+      <div class="nav-link" id="navLink">
+        <!-- <i class="fas fa-times-circle" onclick="hidemenu()"></i> -->
+        <ul id="navlist">
+          <li><a href="about_me.html">About Me</a></li>
+  <li><a href="https://www.github.com/LeiamNashRebirth">GitHub</a></li>        
+          <li><a href="https://www.facebook.com/LeiamNashRebirth">Fb Page</a></li>
+          <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<b style="color: white">Created by Leiam Nash</b>
+        </ul>
+      </div>
+      <div class="BURGER" id="burger" onclick="menubtn()">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <!-- <i class="fas fa-bars" onclick="showmenu()"></i> -->
+    </nav>
+
+    <div class="container">
+      <form>
+   	<br>
+   	<b style="color: white">Please support all of my platform thank you </b>
+        <div id="div1">
+          <input id="btn" type="button" name="hi" value="YouTube">
+          <div id="div1">
+           <input id="btn2" type="button" name="hi" value="Facebook" onclick="window.open('https://www.facebook.com/LeiamNashRebirth');">
+           <div id="dib1">
+         <br>  
+           <input id="btn3" type="button" name="hi" value="GitHub" onclick="window.open('http://www.github.com/LeiamNashRebirth');">
+        </div>
+       <br>
+        <b style="color: white">Developer Leiam Nash </b>
+        <div id="div1">
+           <disabled>
+        </div>
+      </form>
+    </div>
+  </div>
+  <!-- all scripts starts here -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+  $("#loader").delay(1500);
+  $(window).on("load",function(){
+    $("#loader").fadeOut("slow");
+  })
+  // var loader = document.getElementById('loader');
+  // function loaded(){
+  //   loader.style.display = 'none';
+  // }
+  //hide menu and show menu
+  var navLink = document.getElementById("navLink");
+  // function showmenu(){ navLink.style.right = "0"; }
+  // function hidemenu(){ navLink.style.right = "-51%"; }
+
+  var btn = document.getElementById('btn');
+  var btn2 = document.getElementById('btn2');
+
+  btn.onclick = function(){
+  window.open('https://youtu.be/Z5161HFP3LA');
+    setTimeout(function(){
+      btn2.disabled=false;
+      btn2.style.background="rgb(11, 159, 11)";
+      btn2.style.cursor="pointer";
+    },11000);
+  }
+  // burger toggle // menubar
+  var burger = document.getElementById("burger");
+  function menubtn(){
+    navLink.classList.toggle('panal');
+    burger.classList.toggle('toggle');
+
+  }
+
+
+
+  $(function(){setTimeout(function () {
+    navLink.classList.toggle('panal');
+  }, 3500);});
+
+  </script>
+</body>
+</html>
