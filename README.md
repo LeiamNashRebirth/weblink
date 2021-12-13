@@ -30,7 +30,8 @@ If you want to create like this you need to download`TREBEDIT` first
 <br> <br>
 
 # Note
-> ##### This game site support `Windows` `Andriod` `IOS`
+> ##### This site support `Windows` `Andriod` `IOS`
+> ##### I'm not publishing whole codes on my github create your own if you dont want some bug also this site so much bug on `about me` and on `desktop version` don't worry this site don't have a virus
 > ##### Also you can copy my codes above to guide you creating `html` site
 
 <br>
